@@ -1,7 +1,9 @@
+from IPython import clear_output
+
 #board game layout to display board game takes (board as input)
 def display_board(board):
     #append the board game with the input
-
+print('\n'*100)#clears out
 #player input to assign player at X or O ()
 def players_input():
 
