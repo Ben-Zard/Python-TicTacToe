@@ -2,8 +2,9 @@ board = [' ' for x in range(10)]
 #board game layout to display board game takes (board as input)
 def display_board(board):
 print(' | | ')
-print(f'{board[1]}')
-
+print(f'{board[1]}| {board[2]}|{board[3]}')
+print(f'{board[4]}| {board[5]}|{board[6]}')
+print(f'{board[7]}| {board[8]}|{board[9]}')
 print(display_board(board))
 
 #append the board game with the input
